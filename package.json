@@ -24,9 +24,9 @@
     "husky": "^7.0.4",
     "typescript": "4.5.4"
   },
-  "husky":{
-    "hooks":{
-      "pre-commit":"echo 'deu bom'"
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 'deu bom'"
     }
   }
 }
