@@ -27,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'deu bom' "
+      "pre-commit": "npm install"
     }
   }
 }
