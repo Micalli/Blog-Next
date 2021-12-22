@@ -1,3 +1,5 @@
-**/*.ts?(x)
 node_modules
 build
+.next
+next.config.js
+.husky
