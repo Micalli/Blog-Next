@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "lint": "eslint . --ext .ts",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -26,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'deu bom' && npm run lint"
+      "pre-commit": "npm run prettier-format && npm run lint"
     }
   }
 }
